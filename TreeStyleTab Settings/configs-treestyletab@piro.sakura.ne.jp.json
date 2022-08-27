@@ -1,0 +1,39 @@
+{
+  "autoCollapseExpandSubtreeOnAttach": false,
+  "autoCollapseExpandSubtreeOnSelect": false,
+  "chunkedUserStyleRules0": "LyogU2hvdyB0aXRsZSBvZiB1bnJlYWQgdGFicyB3aXRoIHJlZCBhbmQgaXRhbGljIGZvbnQgKi8KLyoKOnJvb3Quc2lkZWJhciB0YWItaXRlbS51bnJlYWQgLmxhYmVsLWNvbnRlbnQgewogIGNvbG9yOiByZWQgIWltcG9ydGFudDsKICBmb250LXN0eWxlOiBpdGFsaWMgIWltcG9ydGFudDsKfQoqLwoKLyogQWRkIHByaXZhdGUgYnJvd3NpbmcgaW5kaWNhdG9yIHBlciB0YWIgKi8KLyoKOnJvb3Quc2lkZWJhciB0YWItaXRlbS5wcml2YXRlLWJyb3dzaW5nIHRhYi1sYWJlbDpiZWZvcmUgewogIGNvbnRlbnQ6ICLwn5W2IjsKfQoqLwoKLyogQ2hhbmdlIHN0eWxpbmcgb2YgcGVuZGluZyAodW5sb2FkZWQpIHRhYnMgKi8KdGFiLWl0ZW0uZGlzY2FyZGVkIHRhYi1pdGVtLXN1YnN0YW5jZSB7CiAgb3BhY2l0eTogMC44NTsKfQoKdGFiLWl0ZW0uZGlzY2FyZGVkIC5sYWJlbC1jb250ZW50IHsKICBjb2xvcjogcmdiKDgyLDgxLDgxKTsKfQovKiBDaGFuZ2Ugc3R5bGluZyBvZiB0aGUgZmF2aWNvbiBvZiBwZW5kaW5nICh1bmxvYWRlZCkgdGFicyAqLwp0YWItaXRlbS5kaXNjYXJkZWQgdGFiLWZhdmljb24gewogIG9wYWNpdHk6IDAuMyAhaW1wb3J0YW50Owp9CgovKiBDaGFuZ2UgdW5yZWFkIHRhYnMgdG8gaXRhbGljICovCnRhYi1pdGVtLnVucmVhZCAubGFiZWwtY29udGVudCB7CiAgZm9udC1zdHlsZTogaXRhbGljOwp9CgovKiBBcyBsaXR0bGUgc3BhY2UgYmVmb3JlIHRoZSB0YWIgbmFtZSBhcyBwb3NzaWJsZS4KICAgVGhlIGZvbGQvdW5mb2xkIGljb24gaXMgbm90IGFmZmVjdGVkLiAqLwp0YWItaXRlbTpub3QoLnBpbm5lZCkgdGFiLWl0ZW0tc3Vic3RhbmNlIHsKICBwYWRkaW5nLWxlZnQ6IDBweCAhaW1wb3J0YW50OyAvKiAhaW1wb3J0YW50IGlzIHJlcXVpcmVkIHdoZW4gdGhlcmUgYXJlIGVub3VnaCB0YWJzIHRvIGNhdXNlIGEgc2Nyb2xsYmFyICovCn0KCi8qIENoYW5nZSB0YWIgaGVpZ2h0IHRvIGJlIG1vcmUgY29tcGFjdCAqLwp0YWItaXRlbSB7CiAgLS10YWItc2l6ZTogMjZweCAhaW1wb3J0YW50Owp9CnRhYi1pdGVtICB0YWItaXRlbS1zdWJzdGFuY2UgewogIGhlaWdodDogdmFyKC0tdGFiLXNpemUpOwp9CgovKiBCb2xkZWQgZm9jdXMgdGFiICovCnRhYi1pdGVtLmFjdGl2ZSAuYmFja2dyb3VuZCB7CiAgYmFja2dyb3VuZC1jb2xvcjogc3RlZWxibHVlOwp9CnRhYi1pdGVtLmFjdGl2ZSAubGFiZWwtY29udGVudCB7CiAgZm9udC13ZWlnaHQ6IGJvbGQ7Cn0KCi8qIENsb3NlIGljb24gb24gaG92ZXIgKi8KI3RhYmJhciB0YWItaXRlbSB0YWItaXRlbS1zdWJzdGFuY2U6bm90KDpob3ZlcikgdGFiLWNsb3NlYm94IHsKICBkaXNwbGF5OiBub25lOwp9Cg==",
+  "configsVersion": 25,
+  "context_closeTree": false,
+  "context_collapseAll": false,
+  "context_expandTreeRecursively": false,
+  "context_topLevel_closeTree": true,
+  "inheritContextualIdentityToChildTabMode": 1,
+  "notifiedFeaturesVersion": 9,
+  "optionsExpandedSections": [
+    "section-appearance",
+    "section-contextMenu",
+    "section-newTabWithOwner",
+    "section-addons",
+    "section-advanced",
+    "section-newTab",
+    "section-treeBehavior",
+    "section-drag",
+    "section-debug"
+  ],
+  "showContextualIdentitiesSelector": true,
+  "showExpertOptions": true,
+  "sidebarPosition": 1,
+  "sidebarPositionRighsideNotificationShown": true,
+  "syncDevices": {
+    "device-1644793859038-33149": {
+      "id": "device-1644793859038-33149",
+      "name": "Firefox on H1",
+      "icon": "device-desktop",
+      "timestamp": 1661633920905
+    }
+  },
+  "treeDoubleClickBehavior": 1,
+  "userStyleRules": "",
+  "userStyleRulesFieldHeight": "939px",
+  "workaroundForBug1548949DroppedTabs": ""
+}

@@ -1,0 +1,59 @@
+/* Show title of unread tabs with red and italic font */
+/*
+:root.sidebar tab-item.unread .label-content {
+  color: red !important;
+  font-style: italic !important;
+}
+*/
+
+/* Add private browsing indicator per tab */
+/*
+:root.sidebar tab-item.private-browsing tab-label:before {
+  content: "🕶";
+}
+*/
+
+/* Change styling of pending (unloaded) tabs */
+tab-item.discarded tab-item-substance {
+  opacity: 0.85;
+}
+
+tab-item.discarded .label-content {
+  color: rgb(82,81,81);
+}
+/* Change styling of the favicon of pending (unloaded) tabs */
+tab-item.discarded tab-favicon {
+  opacity: 0.3 !important;
+}
+
+/* Change unread tabs to italic */
+tab-item.unread .label-content {
+  font-style: italic;
+}
+
+/* As little space before the tab name as possible.
+   The fold/unfold icon is not affected. */
+tab-item:not(.pinned) tab-item-substance {
+  padding-left: 0px !important; /* !important is required when there are enough tabs to cause a scrollbar */
+}
+
+/* Change tab height to be more compact */
+tab-item {
+  --tab-size: 26px !important;
+}
+tab-item  tab-item-substance {
+  height: var(--tab-size);
+}
+
+/* Bolded focus tab */
+tab-item.active .background {
+  background-color: steelblue;
+}
+tab-item.active .label-content {
+  font-weight: bold;
+}
+
+/* Close icon on hover */
+#tabbar tab-item tab-item-substance:not(:hover) tab-closebox {
+  display: none;
+}
