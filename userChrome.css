@@ -23,6 +23,27 @@
 :root[sizemode="fullscreen"] #window-controls{ display: none !important; }
 :root[sizemode="fullscreen"] #nav-bar {margin-right:0px;}
 
+/* Blur email address in hamburger menu for privacy */
+#appMenu-popup #appMenu-header-description {
+	filter: blur(4px) !important;
+	transition: filter 350ms ease-out !important;
+	transition-delay: 200ms !important;
+}
+#appMenu-popup #appMenu-fxa-label2:hover #appMenu-header-description {
+		filter: blur(0px) !important;
+}
+
+/* Blur email address in Firefox Account menu for privacy */
+#customizationui-widget-panel #fxa-manage-account-button #fxa-menu-header-description {
+  filter: blur(4px) !important;
+  transition: filter 350ms ease-out !important;
+  transition-delay: 200ms !important;
+}
+
+#customizationui-widget-panel #fxa-manage-account-button:hover #fxa-menu-header-description {
+  filter: blur(0px) !important;
+}
+
 /* Hide the "Tree Style Tab" header at the top of the sidebar */
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar-header {
   display: none;
