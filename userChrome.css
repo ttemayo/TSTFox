@@ -95,6 +95,11 @@
   */
 }
 
+/*.titlebar-spacer[type="post-tabs"],*/
+.titlebar-spacer[type="pre-tabs"] {
+	display: none !important;
+}
+
 /* show favicon when media is playing but tab is hovered */
 .tab-icon-image:not([pinned]) { opacity: 1 !important; }
 
