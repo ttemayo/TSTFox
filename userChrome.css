@@ -77,11 +77,14 @@
   }
   
   /* Adding empty space for Minimize/Restore/Close window buttons */
+  /*
   #nav-bar {
 	margin-right:140px;
   }
+  */
   
   /* Move minimize/restore/close buttons to empty space */
+  /*
   #TabsToolbar .titlebar-buttonbox-container {
     visibility: visible !important;
     position: absolute;
@@ -89,6 +92,7 @@
     top: 14px;
     right: 1px;
   }
+  */
 }
 
 /* show favicon when media is playing but tab is hovered */
