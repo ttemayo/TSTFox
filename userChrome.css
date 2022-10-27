@@ -76,15 +76,12 @@
 	height: 13px;
   }
   
-  /* Adding empty space for Minimize/Restore/Close window buttons */
-  /*
+  /* Adding empty space for Minimize/Restore/Close buttons */
   #nav-bar {
 	margin-right:140px;
   }
-  */
   
-  /* Move minimize/restore/close buttons to empty space */
-  /*
+  /* Move Minimize/Restore/Close buttons to empty space */
   #TabsToolbar .titlebar-buttonbox-container {
     visibility: visible !important;
     position: absolute;
@@ -92,7 +89,6 @@
     top: 14px;
     right: 1px;
   }
-  */
 }
 
 /*.titlebar-spacer[type="post-tabs"],*/
