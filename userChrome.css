@@ -83,7 +83,7 @@
   
   /* Add margins for the top of the menu, to make it look more aesthetically pleasing*/
   #titlebar > #toolbar-menubar {
-	margin-top: 10px;
+    margin-top: 8px;
   }
   
   .titlebar-buttonbox-container { 
