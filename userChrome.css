@@ -22,6 +22,7 @@
 :root[sizemode="fullscreen"] #TabsToolbar > .titlebar-buttonbox-container,
 :root[sizemode="fullscreen"] #window-controls{ display: none !important; }
 :root[sizemode="fullscreen"] #nav-bar {margin-right:0px;}
+:root { --toolbarbutton-outer-padding: 0 !important; }
 
 /* Blur email address in hamburger menu for privacy */
 #appMenu-popup #appMenu-header-description {
@@ -39,7 +40,6 @@
   transition: filter 350ms ease-out !important;
   transition-delay: 200ms !important;
 }
-
 #customizationui-widget-panel #fxa-manage-account-button:hover #fxa-menu-header-description {
   filter: blur(0px) !important;
 }
@@ -62,26 +62,54 @@
 
 /* Conditional for when the browser width is above 1000px */
 @media screen and (min-width: 1000px){
+    
   /* Hide tabs at top of browser window */
   #TabsToolbar{ visibility: collapse !important }
   
-  /* Add Margins for menu calling by Alt button */
+  /* Initial settings without hover */
+  #titlebar {
+    appearance: none !important;
+    height: 13px; /* Added bar to allow for dragging the whole window by mouse */
+    transition: height 0.5s, opacity 0.5s; /* Transition effect for height and opacity change */
+    opacity: 0; /* Initial opacity, fully hidden */
+  }
+  
+  /* Increase titlebar height on hover */
+  #titlebar:hover {
+    height: 30px; /* Adjust the desired height */
+    transition: height 0.2s, opacity 0.8s; /* Add a smooth transition effect for height and opacity */
+    opacity: 1; /* Hovered opacity, fully visible */
+  }
+  
+  /* Add margins for the top of the menu, to make it look more aesthetically pleasing*/
   #titlebar > #toolbar-menubar {
 	margin-top: 10px;
   }
   
-  /* Added bar to allow for dragging the whole window by mouse */
-  #titlebar {
-	appearance: none !important;
-	height: 13px;
+  .titlebar-buttonbox-container { 
+    visibility:collapse;
+    transition: visibility 1.0s;
+   }
+  
+  #titlebar:hover .titlebar-buttonbox-container {
+    visibility: visible;
+    transition: visibility 1.0s;
+  }
+  
+  #nav-bar {
+    margin-left:-8px;
+    margin-right:-8px;
   }
   
   /* Adding empty space for Minimize/Restore/Close buttons */
+  /*
   #nav-bar {
 	margin-right:140px;
   }
+  */
   
   /* Move Minimize/Restore/Close buttons to empty space */
+  /*
   #TabsToolbar .titlebar-buttonbox-container {
     visibility: visible !important;
     position: absolute;
@@ -89,6 +117,7 @@
     top: 14px;
     right: 1px;
   }
+  */
 }
 
 /*.titlebar-spacer[type="post-tabs"],*/
