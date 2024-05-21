@@ -24,7 +24,8 @@
 :root[sizemode="fullscreen"] #nav-bar {margin-right:0px;}
 :root { --toolbarbutton-outer-padding: 0 !important; }
 
-#main-window[privatebrowsingmode="temporary"] #urlbar
+/* Change url bar color to indicate private browsing */
+#main-window[privatebrowsingmode="temporary"] #urlbar-input-container
 {
   background-color: #25003E !important;
 }
