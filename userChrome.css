@@ -1,4 +1,4 @@
-﻿ :root {
+﻿:root {
   /* Dark Theme Colors */
   --window-colour:               #1f2122;
   --secondary-colour:            #141616;
@@ -23,6 +23,11 @@
 :root[sizemode="fullscreen"] #window-controls{ display: none !important; }
 :root[sizemode="fullscreen"] #nav-bar {margin-right:0px;}
 :root { --toolbarbutton-outer-padding: 0 !important; }
+
+#main-window[privatebrowsingmode="temporary"] #urlbar
+{
+  background-color: #25003E !important;
+}
 
 /* Blur email address in hamburger menu for privacy */
 #appMenu-popup #appMenu-header-description {
@@ -70,17 +75,17 @@
   #titlebar {
     appearance: none !important;
     height: 13px; /* Added bar to allow for dragging the whole window by mouse */
-    transition: height 0.5s, opacity 0.5s; /* Transition effect for height and opacity change */
+    transition: height 0.5s, opacity 0.5s ease-in; /* Transition effect for height and opacity change */
     opacity: 0; /* Initial opacity, fully hidden */
   }
   
   /* Increase titlebar height on hover */
   #titlebar:hover {
     height: 30px; /* Adjust the desired height */
-    transition: height 0.2s, opacity 0.8s; /* Add a smooth transition effect for height and opacity */
+    transition: height 0.2s, opacity 0.5s ease-in; /* Add a smooth transition effect for height and opacity */
     opacity: 1; /* Hovered opacity, fully visible */
   }
-  
+
   /* Add margins for the top of the menu, to make it look more aesthetically pleasing*/
   #titlebar > #toolbar-menubar {
     margin-top: 8px;
